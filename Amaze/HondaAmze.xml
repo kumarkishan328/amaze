@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="" hideabout="1">
+  <view fovmode="0" pannorth="0">
+    <start pan="0" fov="62" tilt="0"/>
+    <min pan="0" fov="40" tilt="-90"/>
+    <max pan="360" fov="70" tilt="90"/>
+  </view>
+  <userdata title="" datetime="2015:06:26 13:35:17" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="0" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="-1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="" target="" pan="-0.295714" skinid="popup" url="" id="pop01" tilt="-26.4362"/>
+    <hotspot title="" target="" pan="0.492849" skinid="popup" url="" id="pop02" tilt="-6.38046"/>
+    <hotspot title="" target="" pan="2.06912" skinid="popup" url="" id="pop03" tilt="1.08346"/>
+    <hotspot title="" target="" pan="-18.0123" skinid="popup" url="" id="pop04" tilt="4.76976"/>
+    <hotspot title="" target="" pan="-14.7471" skinid="popup" url="" id="pop05" tilt="2.57205"/>
+    <hotspot title="" target="" pan="-15.8475" skinid="popup" url="" id="pop06" tilt="-1.61161"/>
+    <hotspot title="" target="" pan="2.24954" skinid="popup" url="" id="pop07" tilt="-17.3939"/>
+    <hotspot title="" target="" pan="-22.3514" skinid="popup" url="" id="pop08" tilt="4.45814"/>
+    <hotspot title="" target="" pan="-35" skinid="popup" url="" id="pop09" tilt="-19.7667"/>
+    <hotspot title="" target="" pan="34.6012" skinid="popup" url="" id="pop10" tilt="-18.4067"/>
+    <hotspot title="" target="" pan="90.7152" skinid="popup" url="" id="pop11" tilt="-43.3929"/>
+    <hotspot title="" target="" pan="178.778" skinid="popup" url="" id="pop12" tilt="-37.2773"/>
+    <hotspot title="" target="" pan="-25.0496" skinid="popup" url="" id="pop13" tilt="-1.46483"/>
+    <hotspot title="" target="" pan="20.8283" skinid="popup" url="" id="pop14" tilt="-8.390499999999999"/>
+    <hotspot title="" target="" pan="-29.6758" skinid="popup" url="" id="pop15" tilt="0.238035"/>
+    <hotspot title="" target="" pan="-71.7491" skinid="popup" url="" id="pop16" tilt="8.47198"/>
+  </hotspots>
+  <media/>
+  <input tile0url="images/Interior_360_02_o_0.jpg" prev5url="images/Interior_360_02_o_preview_5.jpg" prev4url="images/Interior_360_02_o_preview_4.jpg" prev3url="images/Interior_360_02_o_preview_3.jpg" prev2url="images/Interior_360_02_o_preview_2.jpg" prev1url="images/Interior_360_02_o_preview_1.jpg" prev0url="images/Interior_360_02_o_preview_0.jpg" tile5url="images/Interior_360_02_o_5.jpg" tilesize="1750" tile4url="images/Interior_360_02_o_4.jpg" tile3url="images/Interior_360_02_o_3.jpg" tilescale="1.005714285714286" tile2url="images/Interior_360_02_o_2.jpg" tile1url="images/Interior_360_02_o_1.jpg">
+    <preview color="0x808080"/>
+  </input>
+  <altinput tile0url="images/Interior_360_02_o_800_0.jpg" screensize="800" tile5url="images/Interior_360_02_o_800_5.jpg" tilesize="800" tile4url="images/Interior_360_02_o_800_4.jpg" tile3url="images/Interior_360_02_o_800_3.jpg" tilescale="1.005714285714286" tile2url="images/Interior_360_02_o_800_2.jpg" tile1url="images/Interior_360_02_o_800_1.jpg"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>

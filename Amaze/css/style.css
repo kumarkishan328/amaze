@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{margin:0px;padding:0px; width:100%; height:100%; overflow-x:hidden;font-family: HelveticaNeueLTStd-ThCn, Sans-Serif;}
+
+.feature_download{display:none;}
+.btn_360_area{width:100px; position:absolute; bottom:-40px;right:50%; margin-right:-50px;}
+
+.feature_download{width:100%; float:left; text-align:center; margin-top:100px;}
+.swiper-container{display:none;}
+.swiper-slide img{width:100%;}
+
+.color_change_img_mobile{display:none;}
+
+
+.com_bg{background:url(../images/common_bg.jpg) no-repeat center; background-size:cover;width:100%; height:100%; position:absolute;left:0px; top:0px; z-index:-1;}
+
+/*COMMON STYLE START HERE*/
+ul{list-style:none; margin:0px;}
+ul li{list-style:none; padding:0px;}
+a{ text-decoration:none;}
+.width100{width:100%;}
+.fleft{ float:left;}
+.fright{float:right;}
+.mtop{padding-top:65px;}
+.colorA{color:#26518a;}
+.black{color:#000000;}
+.red{color:#ed1c24;}
+.center{text-align:center;}
+a img{border:0px;}
+.active{color:#ed1c24}
+.fontA{font-size:26px; font-weight:bold; font-style:italic;font-family: HelveticaNeueLTStd-ThCn, Sans-Serif;}
+.fontB{font-size:20px; font-weight:normal;}
+#mobilemenu{display:none;}
+.slicknav_menu{display:none;}
+.container{background:#fdfdfd url(../images/bg.jpg) no-repeat; background-size:cover; width:100%; height:100%; position:absolute;left:0px;top:0px;}
+
+
+/*HEADER SECTION STYLE START HERE*/
+header{width:100%; float:left; background:#000000; padding:3px 0px; position:fixed; z-index:3;}
+.logo{float:left;}
+.logo img{padding:10px;}
+
+
+/*NAVIGATION START HERE*/
+nav{float:left; padding:8px 0px 0px 0px;}
+nav ul{ float:left;}
+nav ul li{float:left; list-style:none; padding:0px 10px; }
+nav ul li a{color:#fff; font-size:12px; cursor:pointer;}
+nav ul li a:hover{color:#F00;}
+nav ul li:last-child{border-right:none;}
+
+
+/*SOCIAL SECTION START HERE*/
+.social{float:left; padding:17px 0px 0px 0px; position:absolute; right:10px; top:60px;}
+.social ul li{float:left; padding:0px 0px;}
+.new_amaze{ float:right;}
+.new_amaze img{padding:10px 10px 0px 10px;}
+
+
+/*____________________________________HOME PAGE STYLE START HERE____________________________________*/
+ section{width:100%;float:left; height:800px;position:relative;}
+.home_car{width:60%; position:absolute; bottom:30px; left:20px; height:450px; z-index:1;}
+.home_car img{width:75%;}
+.home_hash{width:35%; position:absolute; bottom:60px;right:0px;}
+.home_hash img{width:100%;}
+.home_title_txt{width:500px; height:350px; position:absolute; top:130px; right:20px;}
+.home_title_txt img{width:100%;}
+/*____________________________________HOME PAGE STYLE END HERE____________________________________*/
+
+
+/*____________________________________COLOR CHANGE PAGE STYLE START HERE____________________________________*/
+.first_hed_txt{margin:10px 0px 0px 0px; font-size:26px; font-style:italic;}
+.second_hed_txt{ margin:0px 0px; font-size:18px; text-indent:200px;}
+.choose_color_section{ margin:7% 0px 0px 0px;}
+.color_palate{ float:left; margin:20px; width:25%; min-width:136px;}
+.color_palate_hed{ width:100%; margin-bottom:10px; text-align:left; padding-left:40px;}
+.color_palate_hed img{}
+.color_palate_color{}
+.color_palate_color ul{width:100%; margin:0px; padding:0px;}
+.color_palate_color ul li{ float:left;width:100%; margin:5px 0px; text-align:left; padding-left:30px;}
+.color_palate_color ul li img{}
+
+.car_change_section{width:70%; float:left; background:url(../images/car_change_bg.png) no-repeat bottom; height:400px; position:relative;}
+.color_change_img{width:100%; position:relative;}
+.color_change_img img{width:80%; position:absolute;top:0px;left:0px;}
+
+.color_change_img_mobile{width:100%; position:relative;}
+.color_change_img_mobile img{width:80%; position:absolute;top:0px;left:0px;}
+
+.car_part_bottom{width:100%; float:left; margin:20px 0px; text-align:center;}
+.car_part_bottom ul{ position:relative; float:right;}
+.car_part_bottom ul li{ float:left;  padding:0px; cursor:pointerl; }
+.e2{margin-left:-50px !important; margin-top:14px !important}
+.e3{margin-left:-50px !important;margin-top:14px !important}
+.e4{margin-left:-50px !important;margin-top:5px !important}
+.e5{margin-left:-50px !important;margin-top:7px !important}
+.e6{margin-left:-50px !important;margin-top:14px !important}
+.e7{margin-left:-50px !important;margin-top:4px !important}
+.car_part_bottom ul li img{}
+.car_part_bottom img{width:auto;}
+iframe{border:0px;}
+.com-popup{background:rgba(0,0,0,.5); position:fixed; z-index:100; width:100%; height:100%; left:0px; top:0px;}
+.exterior_popup{position:fixed;width:80%; left:10%; height:auto; top:55%; margin-top:-300px; background:#fff; z-index:1;opacity:1;}
+/*____________________________________COLOR CHANGE PAGE STYLE END HERE____________________________________*/
+
+.close_acc{z-index:2 !important;}
+
+/*____________________________________INTERIOR PAGE STYLE START HERE____________________________________*/
+.interior_header{width:100%; float:left; margin:20px 0px; z-index:1;}
+.interior_bg{background:url(../images/interior_bg.jpg) no-repeat center; background-size:cover;}
+.interior_txt_down{color:#fff; text-indent:200px; font-weight:normal;}
+.interior_drag{width:100%; position:absolute; bottom:0px; bottom:40px; z-index:2; text-align:center;}
+.drag_icon{width:100%; position:absolute; top:200px; text-align:center;}
+.interior_popup{position:fixed;width:80%; left:10%; height:600px; top:50%; margin-top:-300px; background:#fff; z-index:1;opacity:1;}
+.closeBtn{position:absolute; top:-10px; right:-15px; z-index:1001;}
+/*____________________________________INTERIOR PAGE STYLE END HERE____________________________________*/
+
+
+/*____________________________________ENGINE PAGE STYLE START HERE____________________________________*/
+.engine_header_txt{ width:100%; float:left; text-align:center; font-size:26px; text-transform:uppercase; font-style:italic; margin:30px 0px; font-weight:bold;}
+.engine_area{width:90%; float:left; padding:10px 5%;}
+.petrol_engine{ float:left; margin:10px 0px; width:32%; height:100%;}
+.petrol_engine img{width:100%;}
+.disel_engine{ float:left; margin:10px 0px; width:45%;}
+.disel_engine img{width:100%;}
+.p_top{margin-top:50px;}
+/*____________________________________ENGINE PAGE STYLE END HERE____________________________________*/
+
+
+/*____________________________________SAFETY PAGE STYLE START HERE____________________________________*/
+.safety_header{width:100%; float:left; margin:40px 0px 0px 0px;}
+.safety_middle{width:100%; margin:0px 0px; float:left;}
+.safety_middle img{width:70%; margin:0px 15%;}
+.safety_bottom{width:100%; float:left; margin:0px 0px; text-align:center;}
+.safety_bottom img{margin-top:-35px;width:70%;}
+.safety_hed_txt{ padding-left:20%;}
+.safety_hed_read_txt{padding-left:20%;}
+/*____________________________________SAFETY PAGE STYLE END HERE____________________________________*/
+
+
+/*____________________________________FEATURE PAGE STYLE START HERE____________________________________*/
+.feature_hed{width:100%; float:left; margin:10px 0px; position:relative;}
+.feature_hed img{ position:absolute; bottom:-75px; left:150px;}
+.feature_container{width:80%; margin:50px 10%; float:left; background:rgba(234,234,234,1); padding:40px 10px; overflow:hidden;}
+.feature_inside{overflow: auto;
+    position: relative;
+    padding: 0px 0px 0px 20px;
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    max-width: 97%;
+    height: 400px;}
+	.feature_inside img{width:98%;}
+/*____________________________________FEATURE PAGE STYLE END HERE____________________________________*/
+
+
+/*____________________________________ACCESSORIES PAGE STYLE START HERE____________________________________*/
+.accessories_header{ width:100%; float:left; margin:15px 0px;}
+.access_txt_A{width:100%; float:left; text-align:center; text-indent:-252px; margin-bottom:5px; font-size:26px; text-transform:uppercase;}
+.access_txt_B{ width:100%; float:left; text-align:center; text-indent:200px;font-size:26px ;margin-top:8px; text-transform:uppercase;}
+.accessories_slider{width:900px; margin:0px auto;}
+.acc_img{float:left;width:300px;}
+.acc_img:hover{opacity:.8;}
+.acc_img img{width:100%;}
+.acc_img_m1{}
+.acc_img_m2{margin-left:-55px; margin-top:35px;}
+.acc_img_m3{margin-left:-55px;}
+.access_popup_area{position:fixed; z-index:1; background:rgba(0,0,0,.5);width:100%; height:100%;}
+.acc_popup_A{width:100%; margin-top:10%; top:10%; position:absolute;}
+.acc_popup_B{width:100%; margin-top:10%; top:10%; position:absolute;}
+.acc_popup_C{width:100%; margin-top:10%; top:10%; position:absolute;}
+.close_acc{top:0px; right:100px;}
+.acc_popup_img{width:100%; float:left;}
+.acc_popup_img img{width:80%; margin:0px 10%;}
+/*____________________________________ACCESSORIES PAGE STYLE START HERE____________________________________*/
+
+
+/*____________________________________GRADE PAGE STYLE START HERE____________________________________*/
+.gradeBg{background:url(../images/grade_bg.jpg) no-repeat; background-size:cover;}
+.grade_header{width:100%; float:left; padding:20px 0px;}
+.grade_img1{width:100%; float:left; margin:30px 10px; text-align:center; height:100%;}
+.grade_img1 img{height:auto;width:auto;}
+.grade_section{width:100%; float:left; margin:10px 0px; padding:0px;}
+.grade_section_over{overflow:hidden;}
+/*____________________________________GRADE PAGE STYLE START HERE____________________________________*/
+
+
+
+/*____________________________________DOWNLOAD PAGE STYLE START HERE____________________________________*/
+.download_header{width:100%; float:left; margin:20px 0px 12% 0px; text-align:center;}
+.download_header_txt{}
+.download_header_img{ margin:10px 0px;}
+.download_car{width:100%; float:left; margin:10px 0px;}
+.download_car img{width:auto; bottom:100px;}
+
+/*____________________________________DOWNLOAD PAGE STYLE END HERE____________________________________*/
+.exterior_popup_area{position:fixed; z-index:1; background:rgba(0,0,0,.5);width:100%; height:100%; text-align:center;}
+.ex_close{z-index:7; position:absolute;top:200px; right:30px;width:100px; height:50px;}
+.exterior_popup_area img{width:50%;margin:10% auto;}
+.spritespin{margin:auto;}
+.mobile_color ul li{float:left; margin:5px;}
+.connect_sec{width:100%; float:left; margin:20px 0px; text-align:center; position:relative;}
+.connect_sec img{width:50%;}
+.knowmore{position:absolute; bottom:30%; left:50%; margin-left:-70px;}
+.amaze_car{ margin: 5px auto;  width: 773px;}
+<!--FORM SECTION START HERE-->
+
+
+
+
+
+
+
+    @font-face {
+        font-family: 'HelveticaNeue-Condensed';
+        src: url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeue-Condensed.eot');
+        src: url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeue-Condensed.eot?#iefix') format('embedded-opentype'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeue-Condensed.woff2') format('woff2'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeue-Condensed.woff') format('woff'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeue-Condensed.ttf') format('truetype'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeue-Condensed.svg#HelveticaNeue-Condensed') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'HelveticaNeueLTStd-BdCn';
+        src: url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-BdCn.eot');
+        src: url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-BdCn.woff2') format('woff2'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-BdCn.svg#HelveticaNeueLTStd-BdCn') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-LtCn';
+        src: url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-LtCn.eot');
+        src: url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-LtCn.eot?#iefix') format('embedded-opentype'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-LtCn.woff') format('woff'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-LtCn.ttf') format('truetype'), url('https://www.hondacarindia.com/AllNewJazz/common/css/fonts/HelveticaNeueLTStd-LtCn.svg#HelveticaNeueLTStd-LtCn') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'HelveticaNeueLTStd-ThCn';
+        src: url('HelveticaNeueLTStd-ThCn.eot');
+        src: url('HelveticaNeueLTStd-ThCn.eot?#iefix') format('embedded-opentype'), url('HelveticaNeueLTStd-ThCn.woff') format('woff'), url('HelveticaNeueLTStd-ThCn.ttf') format('truetype'), url('HelveticaNeueLTStd-ThCn.svg#HelveticaNeueLTStd-ThCn') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }

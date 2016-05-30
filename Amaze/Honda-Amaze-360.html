@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Honda Amaze</title>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/spritespin.js"></script>
+</head>
+
+<body style="overflow:hidden">
+<div class="spritespin" style="margin:auto;background:url(images/ajax-loader.gif) center center no-repeat;"> 
+    <script type="text/javascript">
+	  function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(location.search);
+      	return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	  }
+	  var wdth = getParameterByName('wdth');
+	  var hgt = 480;
+	  var wdh = 800;
+		var extr = "exterior";
+		if(wdth < 850 && wdth > 620){
+			extr = "exterior_tab";
+			wdh = 600;
+			hgt = 350;
+		} else if (wdth <= 620) {
+			extr = "exterior_mobile";
+			wdh = 300;
+			hgt = 170;
+		}
+      $('.spritespin').spritespin({
+        source: SpriteSpin.sourceArray('images/'+extr+'/AMAZE_360-16-v2_{frame}.jpg', { frame: [1,74], digits: 4 }),
+        width: wdh,
+        height: hgt,
+        sense: -1,
+        renderer: 'image'
+      });
+    </script> 
+  </div>
+</body>
+
+</html>

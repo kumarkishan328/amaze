@@ -1,0 +1,676 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Honda</title>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="author" content="Chetan Thakur">
+<link href="css/style.css?1" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/exterior.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+
+<!--FOR ANIMATION-->
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/viewportchecker.js"></script>
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/common.js?1"></script>
+<link rel="stylesheet" href="css/slicknav.css" />
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/spritespin.js"></script>
+<script src="js/mousescroll.js"></script>
+
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-40049687-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- LOADER-->
+<script type="text/javascript">
+	$(function(){
+		$('#mobilemenu').slicknav();
+	});
+</script>
+<script>
+        $(window).load(function () {
+            $(".se-pre-con").fadeOut("slow");;
+        });
+ </script>
+<style>
+.no-js #loader {
+	display: none;
+}
+.js #loader {
+	display: block;
+	position: absolute;
+	left: 100px;
+	top: 0;
+}
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/Preloader_2.gif) center no-repeat #fff;
+}
+
+.swiper-container {
+	width: 90%;
+	margin: 20px 5%;
+}
+.swiper-slide {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.stayUpdate {
+	position: fixed;
+	top: 100px;
+	right: 10px;
+	z-index: 7;
+}
+.formPopup1 {
+	width: 280px;
+	background: #335b90;
+	padding: 10px;
+	position: fixed;
+	height: 310px;
+	right: 0px;
+	top: 130px;
+	z-index: 11;
+}
+.formPopup1 label {
+	color: #fff;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 3px 0px;
+	float: left;
+}
+.formPopup1 input {
+	width: 260px;
+	display: block;
+	padding: 7px;
+	margin: 8px 5px;
+	float: left;
+	font-size: 11px;
+}
+.formPopup1 select {
+	width: 280px;
+	display: block;
+	padding: 7px;
+	margin: 8px 5px;
+	font-size: 11px;
+}
+.formPopup1 input[type=button] {
+	padding: 10px 10px;
+	width: 100%;
+}
+.subBtn {
+	background: #E2E6E7;
+	color: #000;
+	font-size: 13px;
+	border: 0px;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-top: 20px;
+	float: left;
+	padding: 10px;
+}
+.subBtn:hover {
+	background: #333333;
+	color: #fff;
+}
+.stayUpdate img {
+	height: 20px;
+}
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-43658529-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+
+<body>
+ <div class="se-pre-con"></div>
+<div class="container"> </div>
+<a class="stayUpdate" href="#"> <img src="images/stay-update.png" alt="Stay Update"/> </a> 
+
+<!--FORM POPUP-->
+
+    <div class="formPopup1" style="display:none">
+
+        <label>
+
+            Want our representative to contact you?</label><br />
+
+        <label>
+
+            Kindly, fill in the form below:</label>
+
+        <input type="text" name="txtName" id="txtName" onfocus="if (this.value==' Your Name') {this.value=''}"
+
+            onblur="if (this.value=='') {this.value=' Your Name'}" onclick="if (this.value==' Your Name') {this.value=''}"
+
+            value=" Your Name" />
+
+        <input type="text" name="txtContactNo" maxlength="10" id="txtContactNo" onfocus="if (this.value==' Your Contact Number') {this.value=''}"
+
+            onblur="if (this.value=='') {this.value=' Your Contact Number'}" onclick="if (this.value==' Your Contact Number') {this.value=''}"
+
+            value=" Your Contact Number" />
+
+        <input type="text" name="txtEmail" id="txtEmail" onfocus="if (this.value==' Your Email') {this.value=''}"
+
+            onblur="if (this.value=='') {this.value=' Your Email'}" onclick="if (this.value==' Your Email') {this.value=''}"
+
+            value=" Your Email" />
+
+        <select id="ddlCity" name="txtCity">
+             <option value="0" selected="selected">Select City</option>                                 
+<option value="28">AGRA</option>
+		<option value="1">AHMEDABAD</option>
+		<option value="101">AHMEDNAGAR</option>
+		<option value="115">AJMER</option>
+		<option value="78">ALLAHABAD</option>
+		<option value="105">ALWAR</option>
+		<option value="89">AMBALA</option>
+		<option value="140">AMRAVATI</option>
+		<option value="2">AMRITSAR</option>
+		<option value="79">ANAND</option>
+		<option value="133">ANANTHAPUR</option>
+		<option value="132">ASANSOL</option>
+		<option value="47">AURANGABAD</option>
+		<option value="177">BAHADURGARH</option>
+		<option value="3">BANGALORE</option>
+		<option value="190">BARAMATI</option>
+		<option value="64">BAREILLY</option>
+		<option value="120">BATHINDA</option>
+		<option value="174">BELAGAVI</option>
+		<option value="146">BELLARY</option>
+		<option value="147">BHAVNAGAR</option>
+		<option value="189">BHILAI</option>
+		<option value="178">BHILWARA</option>
+		<option value="162">BHIWADI</option>
+		<option value="154">BHIWANI</option>
+		<option value="40">BHOPAL</option>
+		<option value="37">BHUVNESHWAR</option>
+		<option value="160">BIKANER</option>
+		<option value="77">BILASPUR</option>
+		<option value="34">CALICUT</option>
+		<option value="5">CHANDIGARH</option>
+		<option value="6">CHENNAI</option>
+		<option value="8">COIMBATORE</option>
+		<option value="109">CUTTACK</option>
+		<option value="43">DEHRADUN</option>
+		<option value="16">DELHI</option>
+		<option value="179">DHANBAD</option>
+		<option value="167">DHULE</option>
+		<option value="108">DIBRUGARH</option>
+		<option value="144">DIMAPUR</option>
+		<option value="86">ERODE</option>
+		<option value="53">FARIDABAD</option>
+		<option value="75">GANDHIDHAM</option>
+		<option value="95">GANDHINAGAR</option>
+		<option value="9">GHAZIABAD</option>
+		<option value="23">GOA</option>
+		<option value="98">GORAKHPUR</option>
+		<option value="152">GUNTUR</option>
+		<option value="42">GURGAON</option>
+		<option value="46">GUWAHATI</option>
+		<option value="83">GWALIOR</option>
+		<option value="94">HALDWANI</option>
+		<option value="107">HIMMATNAGAR</option>
+		<option value="62">HISSAR</option>
+		<option value="142">HOSHIARPUR</option>
+		<option value="180">HOWRAH</option>
+		<option value="49">HUBLI</option>
+		<option value="60">HYDERABAD</option>
+		<option value="165">IMPHAL</option>
+		<option value="10">INDORE</option>
+		<option value="68">JABALPUR</option>
+		<option value="11">JAIPUR</option>
+		<option value="12">JALANDHAR</option>
+		<option value="118">JALGAON</option>
+		<option value="65">JAMMU</option>
+		<option value="137">JAMNAGAR</option>
+		<option value="66">JAMSHEDPUR</option>
+		<option value="56">JODHPUR</option>
+		<option value="151">KAITHAL</option>
+		<option value="166">KANGRA</option>
+		<option value="91">KANNUR</option>
+		<option value="44">KANPUR</option>
+		<option value="25">KARNAL</option>
+		<option value="158">KASARGOD</option>
+		<option value="7">KOCHI (COCHIN)</option>
+		<option value="48">KOLHAPUR</option>
+		<option value="4">KOLKATA</option>
+		<option value="103">KOLLAM</option>
+		<option value="84">KOTA</option>
+		<option value="76">KOTTAYAM</option>
+		<option value="191">KURNOOL</option>
+		<option value="155">KURUKSHETRA</option>
+		<option value="175">LATUR</option>
+		<option value="13">LUCKNOW</option>
+		<option value="14">LUDHIANA</option>
+		<option value="27">MADURAI</option>
+		<option value="181">MALAPURAM</option>
+		<option value="93">MANDI</option>
+		<option value="35">MANGALORE</option>
+		<option value="81">MATHURA</option>
+		<option value="69">MEERUT</option>
+		<option value="72">MEHSANA</option>
+		<option value="134">MOHALI</option>
+		<option value="169">MORADABAD</option>
+		<option value="182">MUKTSAR</option>
+		<option value="15">MUMBAI</option>
+		<option value="161">MUZAFFARPUR</option>
+		<option value="70">MYSORE</option>
+		<option value="30">NAGPUR</option>
+		<option value="29">NASHIK</option>
+		<option value="51">NAVI MUMBAI</option>
+		<option value="90">NELLORE</option>
+		<option value="145">NIZAMABAD</option>
+		<option value="52">NOIDA</option>
+		<option value="88">PANCHKULA</option>
+		<option value="153">PATHNAMTHITTA</option>
+		<option value="33">PATIALA</option>
+		<option value="106">PATNA</option>
+		<option value="117">PUDUCHERRY</option>
+		<option value="17">PUNE</option>
+		<option value="97">PUNE (PCMC)</option>
+		<option value="50">RAIPUR</option>
+		<option value="102">RAJAHMUNDRY</option>
+		<option value="26">RAJKOT</option>
+		<option value="114">RANCHI</option>
+		<option value="141">REWARI</option>
+		<option value="92">ROHTAK</option>
+		<option value="82">ROORKEE</option>
+		<option value="156">ROURKELA</option>
+		<option value="164">SAHARANPUR</option>
+		<option value="74">SALEM</option>
+		<option value="192">SAMBALPUR</option>
+		<option value="149">SANGLI</option>
+		<option value="157">SANGRUR</option>
+		<option value="136">SATARA</option>
+		<option value="159">SATNA</option>
+		<option value="18">SECUNDERABAD</option>
+		<option value="170">SHIMLA</option>
+		<option value="172">SIKAR </option>
+		<option value="63">SILIGURI</option>
+		<option value="173">SIRSA</option>
+		<option value="171">SOLAN</option>
+		<option value="143">SOLAPUR</option>
+		<option value="168">SONIPAT</option>
+		<option value="188">SRIGANGANAGAR</option>
+		<option value="128">SRINAGAR</option>
+		<option value="21">SURAT</option>
+		<option value="80">THANE</option>
+		<option value="176">THANJAVUR</option>
+		<option value="100">THRISSUR</option>
+		<option value="139">TIRUNELVELI</option>
+		<option value="187">TIRUPATI</option>
+		<option value="87">TIRUPUR</option>
+		<option value="24">TIRUVANANTAPURAM</option>
+		<option value="96">TRICHY</option>
+		<option value="119">TRIVANDRUM</option>
+		<option value="55">UDAIPUR</option>
+		<option value="184">UDUPI</option>
+		<option value="19">VADODARA</option>
+		<option value="148">VAGHUSANA BHARUCH</option>
+		<option value="99">VAPI</option>
+		<option value="135">VARANASI</option>
+		<option value="163">VASAI EAST</option>
+		<option value="73">VELLORE</option>
+		<option value="22">VIJAYWADA</option>
+		<option value="20">VIZAG</option>
+		<option value="116">WARANGAL</option>
+        </select>
+
+        <select name="ddlDealer" id="ddlDealer">
+
+            <option value="0">Select Dealer</option>
+
+        </select>
+
+        <!--<input type="button" value="Submit" class="subBtn" />-->
+
+        <input type="button" onclick="return SubmitData();" class="subBtn" value="Submit" />
+
+    </div>
+
+<!--HEADER AREA START HERE-->
+<header> 
+  
+  <!--LOGO AREA START HERE-->
+  <div class="logo"><a href="http://www.hondacarindia.com/" target="_blank"><img src="images/honda_logo.png" alt="Honda"/></a></div>
+  <!--LOGO AREA END HERE--> 
+  
+  <!--NAVIGATION SECTION START HERE-->
+  <nav id="navigation">
+    <ul id="desktopmenu">
+      <li><a class="active" href="#home_section">Home</a></li>
+      <li><a href="#exterior_section">Exterior</a></li>
+      <li><a href="#interior_section">Interior</a></li>
+      <li><a href="#engine_section">Engine &amp; Performance</a></li>
+      <li><a href="#safety_section">Safety</a></li>
+      <li><a href="#grade_section">Grades</a></li>
+      <li><a href="#accessories_section">Accessories</a></li>
+      <li><a href="#connect_section">Connected Cars</a></li>
+      <li><a href="#feature_section">Features</a></li>
+      <li><a href="#specification_section">Specifications</a></li>
+      <li><a href="#download_section">Download</a></li>
+    </ul>
+    <ul id="mobilemenu" style="display:none;">
+      <li><a class="active" href="#home_section">Home</a></li>
+      <li><a href="#exterior_section">Exterior</a></li>
+      <li><a href="#interior_section">Interior</a></li>
+      <li><a href="#engine_section">Engine &amp; Performance</a></li>
+      <li><a href="#safety_section">Safety</a></li>
+      <li><a href="#grade_section">Grades</a></li>
+      <li><a href="#accessories_section">Accessories</a></li>
+      <li><a href="#connect_section">Connected Cars</a></li>
+      <li><a href="#feature_section">Features</a></li>
+      <li><a href="#specification_section">Specifications</a></li>
+      <li><a href="#download_section">Download</a></li>
+    </ul>
+  </nav>
+  <!--NAVIGATION SECTION END HERE--> 
+  
+  <!--SOCIAL SECTION START HERE-->
+  <div class="social">
+    <ul>
+      <li><a href="https://www.facebook.com/HondaCarIndia" target="_blank"><img  src="images/facebook.png" alt="Facebook"/></a></li>
+      <li><a href="https://twitter.com/hondacarindia" target="_blank"><img  src="images/twitter.png" alt="Twitter"/></a></li>
+      <li><a href="https://www.youtube.com/user/HondaCarsIndia" target="_blank"><img  src="images/youtube.png" alt="YouTube"/></a></li>
+      <li><a href="https://www.instagram.com/hondacarindia/" target="_blank"><img  src="images/instagram.png" alt="Instagram"/></a></li>
+    </ul>
+  </div>
+  <!--SOCIAL SECTION END HERE-->
+  
+  <div class="new_amaze"> <img src="images/new_amazed.png" alt="NEW AMAZE"/> </div>
+</header>
+<!--HEADER AREA ENG HERE--> 
+
+<!--_________________________________FIRST PAGE START HERE____________________________-->
+<section id="home_section" style="display:block;">
+  <div class="home_car animLeft"> <img  src="images/car_large.png" alt="Honda Amaze"/> </div>
+  <div class="home_title_txt animRight"> <img src="images/amaze_home_txt.png" alt="Amaze"/> </div>
+  <div class="home_hash animLeft"> <img src="images/home_hash.png" alt="Home Hash"/> </div>
+</section>
+<!--_________________________________FIRST PAGE END HERE______________________________--> 
+
+<!--_________________________________TAGBOARD PAGE START HERE____________________________-->
+<section id="tagboard_section" class="mtop" style="display:block;">
+  <div id="tagboard-area" style="height:800px;overflow:auto;">
+    <div class="tagboard-embed" tgb-slug="AmazingFromEveryAngle/269620"></div>
+    <script src="https://static.tagboard.com/public/js/embed.js"></script> 
+  </div>
+</section>
+<!--_________________________________TAGBOARD PAGE END HERE____________________________--> 
+
+<!--_________________________________EXTERIOR PAGE START HERE____________________________-->
+<section id="exterior_section" class="mtop" style="display:block">
+  <div class="com_bg"></div>
+  <div class="first_hed_txt fleft width100 fontA colorA center"> A WIDER STANCE. A BOLDER STATEMENT. </div>
+  <div class="second_hed_txt fleft width100 fontB center "> The all new Honda Amaze commands respect with its bolder front & wider stance. </div>
+  
+  <!--COLOR CHANGE SECTION START HERE-->
+  <div class="choose_color_section fleft width100 "> 
+    <!--COLOR PALATE AREA START HERE-->
+    <div class="color_palate">
+      <div class="color_palate_hed width100 "> <img src="images/choose_color.png" alt="Choose Color"/> </div>
+      <div class="color_palate_color width100 ">
+        <ul class="desktop_color">
+          <li><a href="#" class="bluish_color"><img  src="images/bluish.png" alt="Bluish"/></a></li>
+          <li><a href="#" class="golden_color"><img  src="images/golden_brown.png" alt="Golden Brown"/></a></li>
+          <li><a href="#" class="red_color"><img  src="images/red_peral.png" alt="Red Paral"/></a></li>
+          <li><a href="#" class="silver_color"><img  src="images/silver_metalic.png" alt="Golden Brown"/></a></li>
+          <li><a href="#" class="urban_color"><img  src="images/urban_metalic.png" alt="Golden Brown"/></a></li>
+          <li><a href="#" class="orchid_color"><img  src="images/orchid_white.png" alt="Golden Brown"/></a></li>
+          <li><a href="#" class="taffeta_color"><img  src="images/taffeta_white.png" alt="Golden Brown"/></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mobile_color_palate" style="display:none;">
+      <div class="color_palate_color width100 ">
+        <ul class="mobile_color">
+          <li><a href="#" class="bluish_color"><img  src="images/c_m_1.png" alt="Bluish"/></a></li>
+          <li><a href="#" class="golden_color"><img  src="images/c_m_2.png" alt="Golden Brown"/></a></li>
+          <li><a href="#" class="red_color"><img  src="images/c_m_3.png" alt="Red Paral"/></a></li>
+          <li><a href="#" class="silver_color"><img  src="images/c_m_4.png" alt="Golden Brown"/></a></li>
+          <li><a href="#" class="urban_color"><img  src="images/c_m_5.png" alt="Golden Brown"/></a></li>
+          <li><a href="#" class="orchid_color"><img  src="images/c_m_6.png" alt="Golden Brown"/></a></li>
+          <li><a href="#" class="taffeta_color"><img  src="images/c_m_7.png" alt="Golden Brown"/></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <!--CAR CHANGE AREA START HERE-->
+    <div class="car_change_section">
+      <div class="color_change_img">
+       <img class="color_a1" src="images/color_change/bluish.png"  alt="Honda Amaze"/> 
+      <img class="color_a" src="images/color_change/golden_metalic.png"  alt="Honda Amaze" style="display:none;"/> 
+      <img class="color_b" src="images/color_change/honda_amaze_red.png"  alt="Honda Amaze" style="display:none;"/> 
+      <img class="color_c" src="images/color_change/silver_metalic.png"  alt="Honda Amaze" style="display:none;"/> 
+      <img class="color_d" src="images/color_change/urban_metalic.png"  alt="Honda Amaze" style="display:none;"/> 
+      <img class="color_e" src="images/color_change/orchid_white.png"  alt="Honda Amaze" style="display:none;"/> 
+      <img class="color_f" src="images/color_change/taffeta_white.png"  alt="Honda Amaze" style="display:none;"/> 
+      </div>
+      <div class="color_change_img_mobile">
+       <img class="color_a1" src="images/color_change_mobile/bluish.png"  alt="Honda Amaze"/> 
+       <img class="color_a" src="images/color_change_mobile/golden_metalic.png"  alt="Honda Amaze" style="display:none;"/> 
+       <img class="color_b" src="images/color_change_mobile/honda_amaze_red.png"  alt="Honda Amaze" style="display:none;"/> 
+       <img class="color_c" src="images/color_change_mobile/silver_metalic.png"  alt="Honda Amaze" style="display:none;"/> 
+       <img class="color_d" src="images/color_change_mobile/urban_metalic.png"  alt="Honda Amaze" style="display:none;"/>
+        <img class="color_e" src="images/color_change_mobile/orchid_white.png"  alt="Honda Amaze" style="display:none;"/> 
+        <img class="color_f" src="images/color_change_mobile/taffeta_white.png"  alt="Honda Amaze" style="display:none;"/> 
+        </div>
+      <div class="btn_360_area"> <a class="360_btn" href="#"><img src="images/360img.png" alt="360 Rotation"/></a> </div>
+    </div>
+    
+    <!--COLOR CHANGE BOTTOM-->
+    <div class="car_part_bottom">
+      <ul>
+        <li class="e1"><img  src="images/exterior_1.png" alt="Honda Exterior"/></li>
+        <li class="e2"><img  src="images/exterior_2.png" alt="Honda Exterior"/></li>
+        <li class="e3"><img  src="images/exterior_3.png" alt="Honda Exterior"/></li>
+        <li class="e4"><img  src="images/exterior_4.png" alt="Honda Exterior"/></li>
+        <li class="e5"><img  src="images/exterior_5.png" alt="Honda Exterior"/></li>
+        <li class="e6"><img  src="images/exterior_6.png" alt="Honda Exterior"/></li>
+        <li class="e7"><img  src="images/exterior_7.png" alt="Honda Exterior"/></li>
+      </ul>
+    </div>
+  </div>
+  <!--COLOR CHANGE SECTION END HERE--> 
+</section>
+<!--_________________________________SECOND PAGE END HERE____________________________--> 
+
+<!--_________________________________INTERIOR PAGE START HERE____________________________-->
+<section id="interior_section" class="mtop interior_bg" style="display:block;">
+  <div class="com_bg"></div>
+  <div class="interior_header">
+    <div class="first_hed_txt  width100 fontA colorA center"> INTERACTIVE, INTELLIGENT AND AWE-INSPIRING. </div>
+    <div class="interior_txt_down  width100 fontB center"> The all new Honda Amaze commands respect with its bolder front & wider stance. </div>
+  </div>
+  <div class="drag_icon"> <a id="dragInterior" href="#"><img src="images/360img_white.png" alt="Drag Icon"/></a> </div>
+</section>
+<!--_________________________________INTERIOR PAGE END HERE____________________________--> 
+
+<!--_________________________________ENGINE PAGE START HERE____________________________-->
+<section id="engine_section" class="mtop" style="display:block;">
+  <div class="com_bg"></div>
+  <div class="engine_header_txt colorA"> ADVANCED ENGINE TECHNOLOGY </div>
+  <div class="engine_area">
+    <div class="petrol_engine"> <img src="images/engine1.png" alt="Petrol Engine"/> </div>
+    <div class="petrol_engine p_top"> <img src="images/engine2.png" alt="Disel Engine"/> </div>
+    <div class="petrol_engine"> <img src="images/engine3.png" alt="Disel Engine"/> </div>
+  </div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img  src="images/engine1.png" alt="Petrol Engine"/></div>
+      <div class="swiper-slide"><img  style="margin-top:30px;" src="images/engine2.png" alt="Petrol Engine"/></div>
+      <div class="swiper-slide"><img  src="images/engine3.png" alt="Petrol Engine"/></div>
+    </div>
+  </div>
+</section>
+<!--_________________________________ENGINE PAGE END HERE____________________________--> 
+
+<!--_________________________________SAFETY PAGE START HERE____________________________-->
+<section id="safety_section" class="mtop" style="display:block;">
+  <div class="com_bg"></div>
+  <!--  SAFETY HEADER-->
+  <div class="safety_header">
+    <div class="safety_hed_txt fontA colorA"> STAY SAFE ALL THE WAY. </div>
+    <div class="safety_hed_read_txt fontB"> Indian roads are unforgiving and unpredictable. That’s why the Amaze sets a new standard in safety for your
+      family with its ACE body structure. </div>
+    </div>
+  <!--  SAFETY MIDDLE-->
+  <div class="safety_middle"> <img src="images/safety_mid.png" alt="Safety"/> </div>
+  <!--  SAFETY BOTTOM-->
+  <div class="safety_bottom"> <img src="images/safety_bottom.png" alt="Safety"/> </div>
+</section>
+<!--_________________________________SAFETY PAGE END HERE____________________________--> 
+
+
+
+<!--_________________________________GRADE PAGE START HERE____________________________-->
+<section id="grade_section" class="mtop gradeBg" style="display:block;">
+  <div class="grade_header fontA colorA center"> AMAZING ACCESSORIES TO TRANSFORM YOUR WORLD. </div>
+  	
+  <div class="grade_img1"> <img src="images/grade_txt.png" alt="Grade"/> </div>
+</section>
+<!--_________________________________GRADE PAGE END HERE____________________________--> 
+
+
+
+<!--_________________________________ACCESSORIES PAGE START HERE____________________________-->
+<section id="accessories_section" class="mtop" style="display:block;">
+  <div class="com_bg"></div>
+  <div class="accessories_header">
+    <div class="access_txt_A fontA colorA"> AMAZING ACCESSORIES TO </div>
+    <div class="access_txt_B fontA colorA"> TRANSFORM YOUR WORLD. </div>
+  </div>
+  <div class="amaze_car"><img src="images/amaze_car.png"> </div>
+  <div class="accessories_slider">
+    <div  class="acc_img acc_img_m1"> <a id="accImg1" href="#"> <img src="images/access_slide_1.png" alt="Accessories"/></a> </div>
+    <div class="acc_img acc_img_m2"> <a id="accImg2" href="#"><img src="images/access_slide_2.png" alt="Accessories"/></a> </div>
+    <div class="acc_img acc_img_m3"> <a id="accImg3" href="#"><img src="images/access_slide_3.png" alt="Accessories"/></a> </div>
+  </div>
+</section>
+<!--_________________________________ACCESSORIES PAGE END HERE____________________________--> 
+
+
+
+<!--_________________________________CONNECT PAGE END HERE____________________________-->
+<section id="connect_section" class="mtop" style="display:block;background:#fff;">
+  <div class="accessories_header">
+    <div class="access_txt_A fontA colorA"> 24X7 Connectivity Support For Safety, </div>
+    <div class="access_txt_B fontA colorA"> Security, And Convenience. </div>
+  </div>
+  <div class="connect_sec"> <img src="images/honda_connect.jpg" alt="Honda Cor Connect"/> </div>
+  <a class="knowmore" href="https://hondacarindia.com/hondaconnect/" target="_blank"> <img src="images/know_more.png" alt="Know More"/> </a> </section>
+<!--_________________________________CONNECT PAGE END HERE____________________________--> 
+
+
+<!--_________________________________FEATURE PAGE START HERE____________________________-->
+<section id="feature_section" class="mtop" style="display:block;">
+  <div class="com_bg"></div>
+  <div class="feature_hed"> <img src="images/feature_hed_txt.png" alt="Feature"/> </div>
+  <div class="feature_container">
+    <div class="feature_inside mCustomScrollbar"> <img src="images/feature_text.png" alt="Feature text" width="959" height="774"/> <img src="images/feature_text1.png" alt="Feature text" width="932" height="685"/> </div>
+  </div>
+  <div class="feature_download"> <a href="feature_txt.pdf" target="_blank"><img  src="images/Buttons-Feature.png" alt="Download"/></a> </div>
+</section>
+<!--_________________________________FEATURE PAGE END HERE____________________________--> 
+
+
+
+<!--_________________________________SPECIFICATION PAGE START HERE____________________________-->
+<section id="specification_section" class="mtop" style="display:block;">
+  <div class="com_bg"></div>
+  <div class="feature_hed"> <img src="images/specification_hed.png" alt="Specification"/> </div>
+  <div class="feature_container">
+    <div class="feature_inside mCustomScrollbar"> <img  src="images/specification_txt.png" alt="Specification Text"/> </div>
+  </div>
+  <div class="feature_download"> <a href="specification.pdf" target="_blank"><img src="images/Buttons-Specification.png" alt="Specification"/></a> </div>
+</section>
+<!--_________________________________SPECIFICATION PAGE END HERE____________________________--> 
+
+
+
+<!--_________________________________DOWNLOAD PAGE START HERE____________________________-->
+<section id="download_section" class="mtop" style="display:block;">
+  <div class="com_bg"></div>
+  <div class="download_header">
+    <div class="download_header_txt fontA colorA"> Get Ready To Get Amazed </div>
+    <div class="download_header_img"> <img src="images/download_brochure.png" alt="Download"/> </div>
+  </div>
+  <div class="download_car"> <img src="images/download_car.png" alt="Honda Car"/> </div>
+</section>
+<!--_________________________________DOWNLOAD PAGE END HERE____________________________--> 
+
+<!--POPUP AREA START HERE-->
+<div class="access_popup_area" style="display:none;">
+  <div class="acc_popup_A" style="display:block"> <a class="closeBtn close_acc" href="#"><img src="images/close_icon.png" alt="Close"/></a>
+    <div class="acc_popup_img"> <img src="images/accImgA.png" alt="Seat"/> </div>
+  </div>
+  <div class="acc_popup_B" style="display:none;"> <a  class="closeBtn close_acc" href="#"><img src="images/close_icon.png" alt="Close"/></a>
+    <div class="acc_popup_img"> <img src="images/accImgC.png" alt="Steering Wheel"/> </div>
+  </div>
+  <div class="acc_popup_C" style="display:none;"> <a  class="closeBtn close_acc" href="#"><img src="images/close_icon.png" alt="Close"/></a>
+    <div class="acc_popup_img"> <img src="images/accImgB.png" alt="Door Miror"/> </div>
+  </div>
+</div>
+<div class="exterior_popup_area" style="display:none;"> 
+<a class="ex_close" href="#"><img  src="images/close_icon.png" alt="Close"/></a> 
+  <img id="ex_img1" class="com_g" src="images/exterior_large/a1.png" style="display:none;"/>
+  <img id="ex_img2" class="com_g" src="images/exterior_large/a2.png" style="display:none;"/>
+  <img id="ex_img3" class="com_g" src="images/exterior_large/a3.png" style="display:none;"/> 
+  <img id="ex_img4" class="com_g" src="images/exterior_large/a4.png" style="display:none;"/> 
+  <img id="ex_img5" class="com_g" src="images/exterior_large/a5.png" style="display:none;"/> 
+  <img id="ex_img6" class="com_g" src="images/exterior_large/a6.png" style="display:none;"/> 
+  <img id="ex_img7" class="com_g" src="images/exterior_large/a7.png" style="display:none;"/> 
+  </div>
+<div id="exte-pop" class="com-popup" style="display:none;">
+  <div class="exterior_popup" > <a id="close_exterior_popup" class="closeBtn" href="#"><img src="images/close_icon.png" alt="Close"/></a>
+    <iframe src="" width="100%"></iframe>
+  </div>
+</div>
+<div id="inte-pop" class="com-popup" style="display:none;">
+  <div class="interior_popup"> <a id="close_interior_popup" class="closeBtn" href="#"><img  src="images/close_icon.png" alt="Close"/></a> 
+  	<iframe src="" width="100%" height="100%"></iframe>
+  </div>
+</div>
+<!-- Swiper JS --> 
+
+
+<script src="js/swiper.min.js"></script> 
+<script type="text/javascript">
+    var swiper = new Swiper('.swiper-container');
+</script> 
+<script type="text/javascript" language="javascript" src="js/Ajax.js"></script>
+</body>
+</html>

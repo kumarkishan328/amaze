@@ -1,0 +1,387 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*FOR MOBILE*/
+
+@media (min-width: 300px) and (max-width:480px) {
+
+.formPopup1{top:80px;}	
+.exterior_popup{width:90%;left:5%;}
+.interior_popup{width:90%;left:5%;}
+
+.safety_hed_txt{padding-left:0px;}
+.connect_sec img{width:75%;}
+.access_txt_A{text-indent:0px;}
+.access_txt_B{margin-top:0px;}
+.drag_icon{bottom:30%; top:auto;}
+.drag_icon img{height:30px;}
+.safety_hed_read_txt{padding:20px 10%;}
+.safety_hed_txt{margin-top:20px;}
+.amaze_car{ margin: 5px auto; width: 100%;}
+.amaze_car img{ width: 95% !important; margin:0 auto}
+	
+	
+.color_change_img{display:none;}
+.stayUpdate{top:55px !important;}
+.color_change_img_mobile{display:block;}
+.feature_download{display:block;}
+.feature_container{display:none;}	
+.engine_area{display:none;}
+.swiper-container{display:block;}
+#desktopmenu{display:none;}
+.slicknav_menu{display:block; background:#000;}
+.slicknav_menu .slicknav_menutxt{display:none;}
+.slicknav_menu{position:fixed;right:0px; top:7px; z-index:8;}
+.social{display:none;}
+.new_amaze{display:none;} 
+ section{height:100%;}
+	
+/*	HOME PAGE STYLE START HERE*/
+   .home_title_txt{width:100%; position:relative; text-align:center; top:0px; right:0px; margin-top:100px;}
+   .home_title_txt img{width:60%;}
+   .home_car{top:250px; width:90%;}
+   .home_hash{width:65%; height:auto;}
+
+/*EXTERIOR PAGE STYLE START HERE*/   
+.first_hed_txt{ font-size:14px; padding:5px 5%;width:90%;}
+.second_hed_txt{font-size:12px; padding:0px 5%; width:90%; text-indent:0px;}
+
+.car_change_section{width:100%; float:left; background:url(../images/car_change_bg_mobile.png) no-repeat bottom center; height:120px;}
+.color_change_img{width:70%; margin:auto;}
+.car_part_bottom img{height:70px;}
+
+.car_part_bottom ul{padding:0px;margin:0px; float:right;}
+
+.e2{margin-left:-25px !important; margin-top:0px !important}
+.e3{margin-left:-25px !important;margin-top:0px !important}
+.e4{margin-left:-23px !important;margin-top:0px !important}
+.e5{margin-left:-25px !important;margin-top:0px !important}
+.e6{margin-left:-25px !important;margin-top:0px !important}
+.e7{margin-left:-25px !important;margin-top:0px !important}
+.car_part_bottom ul li{height:80px;}
+.fontA{font-size:14px; text-align:center;}
+.car_part_bottom{width: 70%;float: left;margin: 20px 15%;text-align: center;}
+.fontB{font-size:13px;}
+
+/*INTERIOR STYLE*/
+.interior_txt_down{text-indent:0px;width: 80%;padding: 0px 10%;}
+.interior_drag img{width:100%;}
+
+/*ENGINE STYLE*/
+.petrol_engine{width:100%;}
+.petrol_engine img{width:70%; margin:0px 15%;}
+.disel_engine{width:100%;}
+.disel_engine img{width:70%; margin:0px 15%;}
+.engine_header_txt{margin-bottom:0px !important;}
+.engine_header_txt{font-size:14px;}
+.safety_hed_read_txt a{margin-top:10px; display:block;}
+
+/*FEATURE PAGE STYLE*/
+.feature_hed img{left:10px;}
+
+/*SAFETY SECTION STYLE*/
+.safety_bottom{}
+.safety_bottom img{width:100%;}
+.safety_header{margin:0px;}
+.safety_hed_read_txt{padding:0px 10%; text-align:center;}
+.safety_middle img{width:90%; margin:10px 5%;}
+
+/*ENGINE PAGE STYLE START HERE*/
+.engine_header_txt{width:80%; padding:20px 10%;}
+
+/*FEATURE PAGE START HERE*/
+.feature_inside{height:300px;}
+.btn_360_area img{height:30px;}
+.ex_close img{width:auto !important;}
+.ex_close{right:0px;}
+.com_g{position: absolute;top: 30%;left: 10%;}
+.exterior_popup_area img{width:80%;}
+.btn_360_area{bottom:-10px;right:50%;width: 63px}
+
+
+/*GRADE PAGE STYLE*/
+.grade_img1 img{width:100%;}
+.grade_header{width:80%; padding:10px 10%;}
+.gradeBg{background:url(../images/grade_bg_mobile.jpg) no-repeat; background-size:cover;}
+
+
+/*ACCESSIORIES STYLE START*/
+.access_txt_B{text-indent:0px;}
+.accessories_slider{width:100%;}
+.acc_img{width:30%;}
+.accessories_slider{width:90%; padding:0px 5%;}
+.acc_img_m2{ margin-left:0px; margin-top:15px;}
+.acc_img_m3{margin-left:0px; margin-top:5px;}
+.acc_popup_A{position:absolute; top:35%;}
+.acc_popup_B{position:absolute; top:35%;}
+.acc_popup_C{position:absolute; top:35%;}
+.close_acc{top:-10px;right:20px;}
+
+
+/*DOWNLOAD STYLE START HERE*/
+.download_car img{width:100%;}
+.download_header_img img{width:50%;}
+
+
+/*EXTERIOR CAR STYLE*/
+.spritespin{height:200px !important;width:100% !important;}
+.desktop_color{display:none;}
+.mobile_color{display:block;}
+
+.color_palate{display:none;}
+.mobile_color_palate{display:block !important;width:100%;}
+.color_palate_color ul{width:210px; margin:auto;}
+.color_palate_color ul li{float:left; width:30px; padding:0px;}
+
+.exterior_popup{margin-top:-150px;}
+.engine_header_txt{margin-top:0px;}
+}
+
+@media (min-width: 481px) and (max-width:767px) {
+.color_change_img{display:none;}
+.stayUpdate{top:55px !important;}
+.color_change_img_mobile{display:block;}
+.feature_download{display:block;}
+.feature_container{display:none;}	
+.engine_area{display:none;}
+.swiper-container{display:block;}
+#desktopmenu{display:none;}
+.slicknav_menu{display:block; background:#000;}
+.slicknav_menu .slicknav_menutxt{display:none;}
+.slicknav_menu{position:fixed;right:0px; top:7px; z-index:8;}
+.social{display:none;}
+.new_amaze{display:none;} 
+section{height:100%;}
+.amaze_car{ margin: 5px auto; width: 100%;}
+.amaze_car img{ width: 95% !important; margin:0 auto}
+	
+/*	HOME PAGE STYLE START HERE*/
+.home_title_txt{width:100%; position:relative; text-align:center; top:0px; right:0px; margin-top:100px;}
+.home_title_txt img{width:60%;}
+.home_car{top:250px; width:90%;}
+.home_hash{width:65%; height:auto;}
+
+/*EXTERIOR PAGE STYLE START HERE*/   
+.first_hed_txt{ font-size:14px; padding:5px 5%;width:90%;}
+.second_hed_txt{font-size:12px; padding:0px 5%; width:90%; text-indent:0px;}
+
+.car_change_section{width:100%; float:left; background:url(../images/car_change_bg_mobile.png) no-repeat bottom center; height:120px;}
+.color_change_img{width:70%; margin:auto;}
+.car_part_bottom img{height:70px;}
+
+.car_part_bottom ul{padding:0px;margin:0px; float:right;}
+
+.e2{margin-left:-25px !important; margin-top:0px !important}
+.e3{margin-left:-25px !important;margin-top:0px !important}
+.e4{margin-left:-23px !important;margin-top:0px !important}
+.e5{margin-left:-25px !important;margin-top:0px !important}
+.e6{margin-left:-25px !important;margin-top:0px !important}
+.e7{margin-left:-25px !important;margin-top:0px !important}
+.car_part_bottom ul li{height:80px;}
+.fontA{font-size:14px; text-align:center;}
+.car_part_bottom{width: 70%;float: left;margin: 20px 15%;text-align: center;}
+.fontB{font-size:13px;}
+
+/*INTERIOR STYLE*/
+.interior_txt_down{text-indent:0px;width: 80%;padding: 0px 10%;}
+.interior_drag img{width:100%;}
+
+/*ENGINE STYLE*/
+.petrol_engine{width:100%;}
+.petrol_engine img{width:70%; margin:0px 15%;}
+.disel_engine{width:100%;}
+.disel_engine img{width:70%; margin:0px 15%;}
+.engine_header_txt{margin-bottom:0px !important;}
+.engine_header_txt{font-size:18px;}
+.safety_hed_read_txt a{margin-top:10px; display:block;}
+
+/*FEATURE PAGE STYLE*/
+.feature_hed img{left:10px;}
+
+/*SAFETY SECTION STYLE*/
+.safety_bottom{}
+.safety_bottom img{width:100%;}
+.safety_header{margin:0px;}
+.safety_hed_read_txt{padding:0px 10%; text-align:center;}
+.safety_middle img{width:90%; margin:10px 5%;}
+
+/*ENGINE PAGE STYLE START HERE*/
+.engine_header_txt{width:80%; padding:10px 10%;}
+
+/*FEATURE PAGE START HERE*/
+.feature_inside{height:300px;}
+.btn_360_area img{height:30px;}
+.ex_close img{width:auto !important;}
+.ex_close{right:0px;}
+.com_g{position: absolute;top: 30%;left: 10%;}
+.exterior_popup_area img{width:80%;}
+.btn_360_area{top: 270px;right: 10px;left: auto;width: 63px}
+
+
+/*GRADE PAGE STYLE*/
+.grade_img1 img{width:100%;}
+.grade_header{width:80%; padding:10px 10%;}
+.gradeBg{background:url(../images/grade_bg_mobile.jpg) no-repeat; background-size:cover;}
+
+/*ACCESSIORIES STYLE START*/
+.access_txt_B{text-indent:0px;}
+.accessories_slider{width:100%;}
+.acc_img{width:30%;}
+.accessories_slider{width:90%; padding:0px 5%;}
+.acc_img_m2{ margin-left:0px; margin-top:15px;}
+.acc_img_m3{margin-left:0px; margin-top:5px;}
+.acc_popup_A{position:absolute; top:35%;}
+.acc_popup_B{position:absolute; top:35%;}
+.acc_popup_C{position:absolute; top:35%;}
+.close_acc{top:-10px;right:20px;}
+
+/*DOWNLOAD STYLE START HERE*/
+.download_car img{width:100%;}
+.download_header_img img{width:50%;}
+
+
+/*EXTERIOR CAR STYLE*/
+
+.spritespin{height:200px !important;width:100% !important;}
+
+.desktop_color{display:none;}
+.mobile_color{display:block;}
+
+.color_palate{display:none;}
+.mobile_color_palate{display:block !important;width:100%;}
+.color_palate_color ul{width:210px; margin:auto;}
+.color_palate_color ul li{float:left; width:30px; padding:0px;}
+
+.exterior_popup{margin-top:-150px;}
+.engine_header_txt{margin-top:0px;}
+.amaze_car{ margin: 5px auto; width: 100%;}
+.amaze_car img{ width: 95% !important; margin:0 auto}
+}
+@media (min-width: 768px) and (max-width:1023px) {
+.logo img{height:20px;}
+#desktopmenu{display:none;}
+
+.slicknav_menu{display:block; background:#000000;}
+.slicknav_menu .slicknav_menutxt{display:none;}
+	.slicknav_menu{position:fixed;right:0px; top:10px; z-index:8;}
+	.social{display:none;}
+	.new_amaze{display:none;} 
+	
+	section{height:100%;}
+	
+/*	HOME PAGE STYLE START HERE*/
+   .home_title_txt{width:100%; position:relative; text-align:center; top:0px; right:0px; margin-top:100px;}
+   .home_title_txt img{width:50%;}
+   .home_car{top:250px;}
+   .home_hash{width:50%;}
+
+/*EXTERIOR PAGE STYLE START HERE*/
+.second_hed_txt{text-indent:0px;}
+.car_change_section{width:70%; float:left; background:url(../images/car_change_bg_tab.png) no-repeat bottom center; 
+height:300px;}
+.color_change_img{width:100%; margin:auto;}
+
+/*INTERIOR PAGE STYLE START HERE*/
+.car_change_section{width:70%; float:left; background:url(../images/car_change_bg_tab.png) no-repeat bottom center; 
+height:300px;}
+.color_change_img{width:100%; margin:auto;}
+.car_part_bottom ul{padding:0px;margin:0px; float:right;}
+.car_part_bottom img{height:90px;}
+.e2{margin-left:-25px !important; margin-top:8px !important}
+.e3{margin-left:-25px !important;margin-top:6px !important}
+.e4{margin-left:-23px !important;margin-top:1px !important}
+.e5{margin-left:-25px !important;margin-top:7px !important}
+.e6{margin-left:-25px !important;margin-top:14px !important}
+.e7{margin-left:-25px !important;margin-top:4px !important}
+
+
+/*ENGINE PAGE STYLE START HERE*/
+
+.first_hed_txt{font-size:20px;}
+.color_palate{margin:0px;}
+.second_hed_txt{font-size:15px;}   
+
+.color_palate_hed img{ height:20px;}
+.color_palate_color ul li img{height:20px;}
+.color_palate_color ul li{margin:0px;}
+
+.btn_360_area img{height:30px;}
+.desktop_color{display:none;}
+.mobile_color{display:block;}
+}
+
+@media only screen and (min-width:901px) and (max-width: 1200px){
+	.desktop_color{display:block;}
+.mobile_color{display:none;}
+
+.logo img{height:20px;}
+nav ul li a{font-size:11px;}
+nav ul{margin:0px 0px;padding:0px;}
+.social{padding:0px;}
+.new_amaze img{height:25px; padding-top:10px;}
+	
+/*EXTERIOR PAGE STYLE START HERE*/	
+	
+.car_change_section{width:70%; float:left; background:url(../images/car_change_bg_tab.png) no-repeat bottom center; 
+height:300px;}
+.color_change_img{width:100%; margin:auto;}
+.car_part_bottom ul{padding:0px;margin:0px; float:right;}
+.car_part_bottom img{height:90px;}
+.e2{margin-left:-25px !important; margin-top:8px !important}
+.e3{margin-left:-25px !important;margin-top:6px !important}
+.e4{margin-left:-23px !important;margin-top:1px !important}
+.e5{margin-left:-25px !important;margin-top:7px !important}
+.e6{margin-left:-25px !important;margin-top:14px !important}
+.e7{margin-left:-25px !important;margin-top:4px !important}
+
+
+.petrol_engine img{width:100%;}
+.disel_engine img{width:100%;}
+
+.safety_middle img{width:80%; margin:0px 10%;}
+
+.safety_bottom{margin:0px;}
+.grade_img1 img{width:80%;}
+}
+
+@media only screen and (min-width:1201px) and (max-width: 1599px){
+	.logo img{height:20px;}
+nav ul li a{font-size:13px;}
+nav ul{margin:0px 0px;padding:0px;}
+.social{padding:0px;}
+.new_amaze img{height:25px; padding-top:10px;}
+	
+	nav{padding-left:40px;}
+	.desktop_color{display:block;}
+.mobile_color{display:none;}
+.grade_img1 img{width:55% ;}
+.acc_img img{width:90%;}
+
+.acc_img_m2{margin-left:-79px;}
+.acc_img_m3{margin-left:-70px;}
+.download_car img{width:67%;}
+.safety_middle img{width:60%; margin:0px 20%;}
+.feature_inside{height:400px;}
+
+.color_palate_color ul li{margin:0px;}
+.car_change_section{width:70%; height:320px;}
+.car_part_bottom{margin:0px;}
+.choose_color_section{margin-top:4%;}
+.home_title_txt{right:54px;}
+}
+
+
+@media only screen and (min-width:1600px) and (max-width: 1920px){
+	.logo img{height:20px;}
+nav ul li a{font-size:14px;}
+nav ul{margin:0px 0px;padding:0px;}
+.social{padding:0px;}
+.new_amaze img{height:25px; padding-top:10px;}
+	
+	nav{padding-left:40px;}
+	.desktop_color{display:block;}
+.mobile_color{display:none;}
+.car_change_section{height:400px;}
+
+.home_title_txt{right:40px;}
+}
